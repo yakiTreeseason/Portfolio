@@ -1,0 +1,50 @@
+/* 共通部分
+ーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* コードの文字化け */
+@charset "UTF-8";
+/* 文字サイズを正しく反映 */
+html{
+    font-size: 100%;
+}
+body{
+    line-height: 1.7;
+    color: #432;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/* レイアウト */
+.align-center{
+    text-align: center;
+}
+/* ヘッダー */
+.page-header{
+    padding-top: .5rem;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.main-nav a{
+    color: #432;
+}
+.main-nav a:hover{
+    color: #0bd;
+}
+/* 見出し */
+.font-english{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+.page-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+}
