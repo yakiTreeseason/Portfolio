@@ -6,28 +6,44 @@
     <title>Portfolio-Home</title>
 <!-- 書体の設定 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 <!-- ファビコン -->
     <link rel="icon" type="image/png" href="./material/illustration/無題188_20260322114408.png">
 <!-- リセットCSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 <!-- オリジナルCSS -->
     <link rel="stylesheet" href="./css/base.css">
+    <script src="./js/script.js"></script>
 </head>
 <body>
+    <!-- ローディング画面 -->
+    <div id="loading">
+        <p>Loading</p>
+        <div id="loading-screen"></div>
+    </div>
     <div class="home">
         <div class="cover cover-home">
             <header class="page-header wrapper">
                 <h1 class="align-center">
                     <a href="./main.html"><img class="logo" src="./material/illustration/無題188_20260322114408.png" alt="TreeSeason Portfolio"></a></h1>
                 <!-- ナビゲーション -->
-                <ul class="main-nav font-english">
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./production.html">Production</a></li>
-                    <li><a href="./skill.html">Skill</a></li>
-                    <li><a href="./profile.html">Profile</a></li>
-                </ul>
+                <!-- <nav>
+                    <button id="menu-open" class="btn-menu">
+                        <title>メニューを開く</title>
+                    </button>
+                    <div id="menu-panel">
+                        <button id="menu-close" class="btn-menu">
+                            <title>メニューを閉じる</title>
+                        </button>
+                    </div>
+                    <ul class="main-nav font-english">
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./production.html">Production</a></li>
+                        <li><a href="./skill.html">Skill</a></li>
+                        <li><a href="./profile.html">Profile</a></li>
+                    </ul>
+                </nav> -->
             </header>
                 <h1 class="page-title font-english">Home-ホーム</h1><br>
         </div>
